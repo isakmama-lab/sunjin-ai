@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CONTACT | 선진기술</title>
+<meta name="description" content="선진기술 회사정보, 오시는 길과 기술문의 접수 화면입니다.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23021036'/%3E%3Cpath d='M17 21h30v7H25v7h18v7H17z' fill='%23c20000'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:Pretendard;src:url('../assets/Pretendard-Regular.otf') format('opentype');font-weight:400}@font-face{font-family:Pretendard;src:url('../assets/Pretendard-SemiBold.otf') format('opentype');font-weight:600}@font-face{font-family:Pretendard;src:url('../assets/Pretendard-Bold.otf') format('opentype');font-weight:700 900}:root{--text:#050316;--bg:#fbfbfe;--primary:#021036;--secondary:#d9dbe3;--accent:#c20000;--muted:#626272;--soft:#f1f1f6;--line:#d9dbe3;--max:1240px}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;color:var(--text);background:var(--bg);font-family:Pretendard,sans-serif;font-size:16px;line-height:1.65}a{color:inherit}button,input,select,textarea{font:inherit}.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}.eyebrow{margin:0 0 14px;color:var(--accent);font-size:.78rem;font-weight:800;letter-spacing:.16em}.title{margin:0;font-size:clamp(2.2rem,5vw,4.8rem);line-height:1.05;letter-spacing:-.065em}.skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:16px;z-index:100;background:#fff;padding:12px}.header{height:86px;background:rgba(251,251,254,.97);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50;backdrop-filter:blur(10px)}.header-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:28px}.logo img{display:block;width:154px}.nav{display:flex;align-items:center;gap:clamp(20px,2.6vw,42px);height:100%}.nav a{text-decoration:none;font-size:.9rem;font-weight:700;position:relative}.nav a:after{content:"";position:absolute;left:0;right:0;bottom:-29px;height:3px;background:var(--accent);transform:scaleX(0)}.nav a:hover:after,.nav a[aria-current=page]:after{transform:scaleX(1)}.inquiry{background:var(--accent);color:white;padding:12px 19px;text-decoration:none;font-weight:800}.menu-btn{display:none;width:44px;height:44px;border:0;background:transparent}.menu-btn span,.menu-btn:before,.menu-btn:after{content:"";display:block;width:24px;height:2px;margin:5px auto;background:var(--accent)}.mobile-nav{display:none;position:fixed;inset:70px 0 auto;background:var(--bg);z-index:49;padding:18px 24px 26px;border-bottom:1px solid var(--line)}.mobile-nav.open{display:block}.mobile-nav a{display:block;padding:14px 0;border-bottom:1px solid var(--line);text-decoration:none;font-weight:700}.mobile-nav .mobile-inquiry{margin-top:18px;background:var(--accent);color:white;text-align:center}
+.hero{background:var(--primary);color:white;padding:92px 0 82px;position:relative;overflow:hidden}.hero:after{content:"CONTACT";position:absolute;right:-.02em;bottom:-.18em;color:rgba(217,219,227,.045);font-size:clamp(7rem,18vw,18rem);font-weight:900;line-height:1}.breadcrumb{display:flex;gap:10px;color:#aeb1be;font-size:.82rem;margin-bottom:68px}.breadcrumb a{text-decoration:none}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:8vw;align-items:end;position:relative;z-index:1}.hero .eyebrow{color:#ef9f9f}.hero-copy p:last-child{max-width:650px;margin:26px 0 0;color:#c8cad3;font-size:1.08rem}.hero-info{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #46516e;border-left:1px solid #46516e}.hero-info div{padding:22px;border-right:1px solid #46516e;border-bottom:1px solid #46516e}.hero-info span{display:block;color:#ef9f9f;font-size:.72rem;font-weight:800}.hero-info strong{display:block;margin-top:8px}
+.contact-main{padding:110px 0}.contact-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:8vw;align-items:start}.side{position:sticky;top:125px}.side h2{font-size:clamp(2rem,4vw,3.5rem);line-height:1.1;letter-spacing:-.05em;margin:0 0 24px}.side>p{color:var(--muted)}.info-list{margin-top:38px;border-top:2px solid var(--primary)}.info-item{padding:20px 0;border-bottom:1px solid var(--line)}.info-item span{display:block;color:var(--muted);font-size:.82rem}.info-item strong{display:block;margin-top:4px}.form{background:var(--soft);padding:44px}.form h2{margin:0 0 8px;font-size:1.75rem}.form>p{margin:0 0 34px;color:var(--muted)}.fields{display:grid;grid-template-columns:1fr 1fr;gap:22px 18px}.field.full{grid-column:1/-1}.field label{display:block;margin-bottom:8px;font-weight:700;font-size:.9rem}.required{color:var(--accent)}input,select,textarea{width:100%;border:1px solid #c5c8d1;background:white;color:var(--text);padding:13px 14px;border-radius:0;min-height:50px}textarea{min-height:150px;resize:vertical}input:focus,select:focus,textarea:focus{outline:2px solid var(--primary);outline-offset:2px}.upload{position:relative;border:1px dashed #aeb2bf;background:white;padding:24px;text-align:center}.upload input{position:absolute;inset:0;opacity:0;cursor:pointer}.upload strong{display:block}.upload span{display:block;color:var(--muted);font-size:.85rem;margin-top:4px}.consent{display:flex;gap:10px;align-items:flex-start;margin:26px 0}.consent input{width:18px;height:18px;min-height:0;margin-top:4px}.consent label{font-size:.9rem;color:var(--muted)}.submit{width:100%;min-height:56px;border:0;background:var(--accent);color:white;font-weight:800;cursor:pointer}.submit:hover{background:#a90000}.notice{display:none;margin-top:18px;padding:16px;border-left:4px solid var(--accent);background:white}.notice.show{display:block}
+.location{background:var(--soft);padding:110px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:48px}.section-head>p{max-width:600px;margin:0;color:var(--muted)}.location-grid{display:grid;grid-template-columns:1.1fr .9fr;min-height:390px}.map-placeholder{background:var(--primary);color:white;padding:42px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}.map-placeholder:after{content:"LOCATION";position:absolute;right:-.04em;bottom:-.15em;font-size:8rem;font-weight:900;color:rgba(255,255,255,.05)}.map-placeholder span{color:#ef9f9f;font-size:.8rem;font-weight:800}.map-placeholder strong{font-size:clamp(2rem,4vw,3.5rem);line-height:1.1;position:relative;z-index:1}.map-note{padding:42px;background:white;border:1px solid var(--line)}.map-note h3{font-size:1.55rem;margin:0 0 22px}.map-note p{color:var(--muted)}.pending{display:inline-block;margin-top:22px;color:var(--accent);font-size:.82rem;font-weight:800}.footer{background:var(--primary);color:var(--secondary);padding:58px 0 25px}.footer-grid{display:grid;grid-template-columns:1.5fr repeat(3,1fr);gap:54px}.footer-logo{display:inline-block;background:transparent;padding:8px 12px}.footer-logo img{display:block;width:145px}.footer p{color:#b5b7c2}.footer h3{margin:4px 0 20px;color:white;font-size:.83rem;letter-spacing:.12em}.footer a{display:block;margin:8px 0;text-decoration:none;font-size:.92rem}.footer-bottom{display:flex;justify-content:space-between;margin-top:44px;padding-top:20px;border-top:1px solid #37425f;color:#a5a8b6;font-size:.82rem}.footer-policy{display:flex;gap:20px}
+@media(max-width:960px){.nav,.inquiry{display:none}.menu-btn{display:block}.hero-grid,.contact-grid{grid-template-columns:1fr}.hero-info{margin-top:28px}.side{position:static}.location-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}}@media(max-width:640px){.wrap{width:min(100% - 32px,var(--max))}.header{height:70px}.logo img{width:122px}.hero{padding:70px 0}.breadcrumb{margin-bottom:45px}.hero-info,.fields{grid-template-columns:1fr}.contact-main,.location{padding:80px 0}.form{padding:30px 20px}.section-head{display:block}.section-head>p{margin-top:20px}.footer-grid{grid-template-columns:1fr}.footer-bottom{display:block}.footer-policy{margin-bottom:14px;flex-wrap:wrap}}
+</style>
+<style>
+  .hero{background:linear-gradient(90deg,rgba(2,16,54,.95) 0%,rgba(2,16,54,.77) 48%,rgba(2,16,54,.32) 100%),url('../assets/contact-hero-automation.png') center/cover no-repeat}
+  .hero:after{color:rgba(2,16,54,.2)}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">본문 바로가기</a>
+<header class="header">
+<div class="wrap header-inner">
+<a class="logo" href="../home/">
+<img src="../assets/sunjin-logo.png" alt="SUNJIN TECHNOLOGY">
+</a>
+<nav class="nav">
+<a href="../company/">COMPANY</a>
+<a href="../business/">BUSINESS</a>
+<a href="../solutions/">SOLUTIONS</a>
+<a href="../projects/">PROJECTS</a>
+<a href="./" aria-current="page">CONTACT</a>
+</nav>
+<a class="inquiry" href="#inquiry">기술문의</a>
+<button class="menu-btn" aria-label="모바일 메뉴 열기" aria-expanded="false" aria-controls="mobileNav">
+<span>
+</span>
+</button>
+</div>
+</header>
+<nav class="mobile-nav" id="mobileNav">
+<a href="../home/">HOME</a>
+<a href="../company/">COMPANY</a>
+<a href="../business/">BUSINESS</a>
+<a href="../solutions/">SOLUTIONS</a>
+<a href="../projects/">PROJECTS</a>
+<a href="./" aria-current="page">CONTACT</a>
+<a class="mobile-inquiry" href="#inquiry">기술문의</a>
+</nav>
+<main id="main">
+<section class="hero">
+<div class="wrap">
+<div class="breadcrumb">
+<a href="../home/">HOME</a>
+<span>/</span>
+<strong>CONTACT</strong>
+</div>
+<div class="hero-grid">
+<div class="hero-copy">
+<p class="eyebrow">CONTACT SUNJIN</p>
+<h1 class="title">현장의 문제를<br>함께 검토합니다</h1>
+<p>자동화가 필요한 공정과 제품 정보를 알려주시면 적용 방향을 검토할 수 있도록 문의 내용을 정리합니다.</p>
+</div>
+<div class="hero-info">
+<div>
+<span>ADDRESS</span>
+<strong>경남 창원시 의창구<br>차룡단지로 135</strong>
+</div>
+<div>
+<span>TEL</span>
+<strong>055-252-6333</strong>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="contact-main" id="inquiry">
+<div class="wrap contact-grid">
+<aside class="side">
+<p class="eyebrow">TECHNICAL INQUIRY</p>
+<h2>기술문의</h2>
+<p>현재 공정과 개선하려는 내용을 구체적으로 작성할수록 적용 가능성을 검토하는 데 도움이 됩니다.</p>
+<div class="info-list">
+<div class="info-item">
+<span>문의 분야</span>
+<strong>로봇·AMR·AI 비전·용접 자동화</strong>
+</div>
+<div class="info-item">
+<span>첨부 자료</span>
+<strong>공정도·도면·제품 사진·요구사항</strong>
+</div>
+<div class="info-item">
+<span>대표전화</span>
+<strong>055-252-6333</strong>
+</div>
+</div>
+</aside>
+<form class="form" id="contactForm">
+<h2>프로젝트 문의 작성</h2>
+<p>
+<span class="required">*</span> 표시는 필수 입력 항목입니다.</p>
+<div class="fields">
+<div class="field">
+<label for="type">문의 분야 <span class="required">*</span>
+</label>
+<select id="type" required>
+<option value="">선택해주세요</option>
+<option>Robot Automation</option>
+<option>AMR &amp; Autonomous Mobility</option>
+<option>AI Vision &amp; Smart Control</option>
+<option>Welding Automation</option>
+<option>기타</option>
+</select>
+</div>
+<div class="field">
+<label for="company">회사명 <span class="required">*</span>
+</label>
+<input id="company" required autocomplete="organization">
+</div>
+<div class="field">
+<label for="name">담당자명 <span class="required">*</span>
+</label>
+<input id="name" required autocomplete="name">
+</div>
+<div class="field">
+<label for="phone">연락처 <span class="required">*</span>
+</label>
+<input id="phone" type="tel" required autocomplete="tel">
+</div>
+<div class="field full">
+<label for="email">이메일 <span class="required">*</span>
+</label>
+<input id="email" type="email" required autocomplete="email">
+</div>
+<div class="field full">
+<label for="project">프로젝트명</label>
+<input id="project" placeholder="예: 생산라인 로봇 자동화">
+</div>
+<div class="field full">
+<label for="message">문의 내용 <span class="required">*</span>
+</label>
+<textarea id="message" required placeholder="현재 공정, 문제점, 자동화 대상과 목표를 작성해주세요.">
+</textarea>
+</div>
+<div class="field full">
+<label for="file">자료첨부</label>
+<div class="upload">
+<input id="file" type="file" multiple aria-describedby="fileName">
+<strong>파일을 선택하거나 이 영역을 눌러주세요.</strong>
+<span id="fileName">공정도·도면·제품 사진·요구사항 문서</span>
+</div>
+</div>
+</div>
+<div class="consent">
+<input id="agree" type="checkbox" required>
+<label for="agree">문의 내용 확인을 위한 개인정보 수집·이용에 동의합니다. <span class="required">*</span>
+</label>
+</div>
+<button class="submit" type="submit">문의 내용 확인</button>
+<div class="notice" id="notice" role="status">입력 확인이 완료되었습니다. 현재는 화면 프로토타입으로, 실제 접수 기능은 서버 연동 후 제공됩니다.</div>
+</form>
+</div>
+</section>
+<section class="location" id="location">
+<div class="wrap">
+<div class="section-head">
+<div>
+<p class="eyebrow">LOCATION</p>
+<h2 class="title">오시는 길</h2>
+</div>
+<p>방문 전 대표전화로 일정과 담당자를 확인해 주세요.</p>
+</div>
+<div class="location-grid">
+<div class="map-placeholder">
+<span>SUNJIN TECHNOLOGY</span>
+<strong>경남 창원시 의창구<br>차룡단지로 135</strong>
+</div>
+<div class="map-note">
+<h3>회사정보</h3>
+<p>
+<strong>주소</strong>
+<br>경남 창원시 의창구 차룡단지로 135</p>
+<p>
+<strong>대표전화</strong>
+<br>055-252-6333</p>
+<span class="pending">외부 지도 연결은 공식 지도 링크 확인 후 반영</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="wrap">
+<div class="footer-grid">
+<div>
+<a class="footer-logo" href="../home/">
+<img src="../assets/sunjin-logo.png" alt="SUNJIN TECHNOLOGY">
+</a>
+<p>AI Robotics &amp; Smart Automation</p>
+<p>경남 창원시 의창구 차룡단지로 135<br>대표전화 055-252-6333</p>
+</div>
+<div>
+<h3>COMPANY</h3>
+<a href="../company/#about">회사소개</a>
+<a href="../company/#rd">연구소·조직</a>
+<a href="../company/#certification">특허·인증</a>
+</div>
+<div>
+<h3>BUSINESS</h3>
+<a href="../business/#robot-automation">Robot Automation</a>
+<a href="../business/#amr">AMR</a>
+<a href="../business/#ai-vision">AI Vision</a>
+<a href="../business/#welding">Welding</a>
+</div>
+<div>
+<h3>CONTACT</h3>
+<a href="#inquiry">기술문의</a>
+<a href="#location">오시는 길</a>
+<a href="#inquiry">자료첨부</a>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="footer-policy">
+<a href="#">개인정보처리방침</a>
+<a href="#">이메일무단수집거부</a>
+</div>
+<span>© SUNJIN TECHNOLOGY. All rights reserved.</span>
+</div>
+</div>
+</footer>
+<script>const b=document.querySelector('.menu-btn'),m=document.getElementById('mobileNav'),f=document.getElementById('contactForm'),file=document.getElementById('file'),fileName=document.getElementById('fileName'),notice=document.getElementById('notice');b.addEventListener('click',()=>{const o=m.classList.toggle('open');b.setAttribute('aria-expanded',String(o));b.setAttribute('aria-label',o?'모바일 메뉴 닫기':'모바일 메뉴 열기')});m.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{m.classList.remove('open');b.setAttribute('aria-expanded','false')}));file.addEventListener('change',()=>{fileName.textContent=file.files.length?Array.from(file.files).map(x=>x.name).join(', '):'공정도·도면·제품 사진·요구사항 문서'});f.addEventListener('submit',e=>{e.preventDefault();if(f.reportValidity()){notice.classList.add('show');notice.scrollIntoView({behavior:'smooth',block:'nearest'})}});</script>
+</body>
+</html>
