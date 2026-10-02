@@ -1,11 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="ko">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>PROJECTS | 선진기술</title>
-<meta name="description" content="선진기술의 대표 구축실적, 해외실적, R&D 및 실증 프로젝트를 소개합니다.">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23021036'/%3E%3Cpath d='M17 21h30v7H25v7h18v7H17z' fill='%23c20000'/%3E%3C/svg%3E">
+<meta content="선진기술의 대표 구축실적, 해외실적, R&amp;D 및 실증 프로젝트를 소개합니다." name="description"/>
+<link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23021036'/%3E%3Cpath d='M17 21h30v7H25v7h18v7H17z' fill='%23c20000'/%3E%3C/svg%3E" rel="icon" type="image/svg+xml"/>
 <style>
 @font-face{font-family:Pretendard;src:url('../assets/Pretendard-Regular.otf') format('opentype');font-weight:400}@font-face{font-family:Pretendard;src:url('../assets/Pretendard-SemiBold.otf') format('opentype');font-weight:600}@font-face{font-family:Pretendard;src:url('../assets/Pretendard-Bold.otf') format('opentype');font-weight:700 900}:root{--text:#050316;--bg:#fbfbfe;--primary:#021036;--secondary:#d9dbe3;--accent:#c20000;--muted:#626272;--soft:#f1f1f6;--line:#d9dbe3;--max:1240px}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;color:var(--text);background:var(--bg);font-family:Pretendard,sans-serif;font-size:16px;line-height:1.65}a{color:inherit}button,a{font:inherit}.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}.eyebrow{margin:0 0 14px;color:var(--accent);font-size:.78rem;font-weight:800;letter-spacing:.16em}.title{margin:0;font-size:clamp(2.2rem,5vw,4.8rem);line-height:1.05;letter-spacing:-.065em}.skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:16px;z-index:100;background:#fff;padding:12px}.header{height:86px;background:rgba(251,251,254,.97);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50;backdrop-filter:blur(10px)}.header-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:28px}.logo img{display:block;width:154px}.nav{display:flex;align-items:center;gap:clamp(20px,2.6vw,42px);height:100%}.nav a{text-decoration:none;font-size:.9rem;font-weight:700;position:relative}.nav a:after{content:"";position:absolute;left:0;right:0;bottom:-29px;height:3px;background:var(--accent);transform:scaleX(0)}.nav a:hover:after,.nav a[aria-current=page]:after{transform:scaleX(1)}.inquiry{background:var(--accent);color:white;padding:12px 19px;text-decoration:none;font-weight:800}.menu-btn{display:none;width:44px;height:44px;border:0;background:transparent}.menu-btn span,.menu-btn:before,.menu-btn:after{content:"";display:block;width:24px;height:2px;margin:5px auto;background:var(--accent)}.mobile-nav{display:none;position:fixed;inset:70px 0 auto;background:var(--bg);z-index:49;padding:18px 24px 26px;border-bottom:1px solid var(--line)}.mobile-nav.open{display:block}.mobile-nav a{display:block;padding:14px 0;border-bottom:1px solid var(--line);text-decoration:none;font-weight:700}.mobile-nav .mobile-inquiry{margin-top:18px;background:var(--accent);color:white;text-align:center}
 .hero{background:var(--primary);color:white;padding:95px 0 0;overflow:hidden}.breadcrumb{display:flex;gap:10px;color:#aeb1be;font-size:.82rem;margin-bottom:68px}.breadcrumb a{text-decoration:none}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:8vw;align-items:end}.hero-copy{padding-bottom:82px}.hero .eyebrow{color:#ef9f9f}.hero-copy p:last-child{margin:26px 0 0;color:#c8cad3;font-size:1.08rem;max-width:650px}.hero-index{display:grid;grid-template-columns:repeat(3,1fr);align-self:stretch;border-left:1px solid #46516e}.hero-index a{display:flex;flex-direction:column;justify-content:flex-end;padding:28px 22px;border-right:1px solid #46516e;text-decoration:none;background:rgba(255,255,255,.02)}.hero-index a:hover{background:var(--accent)}.hero-index span{color:#ef9f9f;font-size:.72rem}.hero-index strong{margin-top:10px}.intro{padding:100px 0}.intro-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:9vw}.intro-copy{font-size:clamp(1.6rem,3vw,2.65rem);line-height:1.4;letter-spacing:-.04em;margin:0}.intro-detail{border-left:4px solid var(--accent);padding-left:28px;color:var(--muted)}.intro-detail p{margin:0}
@@ -14,9 +15,19 @@
 .experience{padding:110px 0}.exp-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.exp-card{min-height:360px;padding:42px;background:var(--primary);color:white;display:flex;flex-direction:column}.exp-card:nth-child(2){background:var(--bg);color:var(--text);border:1px solid var(--line)}.exp-card>span{color:#ef9f9f;font-weight:800}.exp-card:nth-child(2)>span{color:var(--accent)}.exp-card h3{font-size:clamp(2rem,4vw,3.5rem);line-height:1.05;margin:42px 0 20px;letter-spacing:-.05em}.exp-card p{margin:0;color:#c5c8d3}.exp-card:nth-child(2) p{color:var(--muted)}.status{margin-top:auto;padding-top:30px;font-size:.82rem;font-weight:800;color:#ef9f9f}.exp-card:nth-child(2) .status{color:var(--accent)}
 .method{background:var(--soft);padding:110px 0}.method-grid{display:grid;grid-template-columns:repeat(5,1fr);border-top:2px solid var(--primary)}.step{min-height:220px;padding:28px 20px;border-right:1px solid #c8cad3}.step:last-child{border-right:0}.step span{color:var(--accent);font-weight:800}.step h3{margin:46px 0 10px}.step p{margin:0;color:var(--muted);font-size:.92rem}.contact{background:var(--accent);color:white;padding:82px 0}.contact-inner{display:flex;align-items:center;justify-content:space-between;gap:40px}.contact h2{font-size:clamp(2rem,4vw,3.7rem);line-height:1.12;letter-spacing:-.05em;margin:0}.contact p{margin:14px 0 0;color:#f6d7d7}.btn{display:inline-flex;min-height:52px;padding:0 24px;align-items:center;background:white;color:var(--accent);font-weight:800;text-decoration:none}.footer{background:var(--primary);color:var(--secondary);padding:58px 0 25px}.footer-grid{display:grid;grid-template-columns:1.5fr repeat(3,1fr);gap:54px}.footer-logo{display:inline-block;background:transparent;padding:8px 12px}.footer-logo img{display:block;width:145px}.footer p{color:#b5b7c2}.footer h3{margin:4px 0 20px;color:white;font-size:.83rem;letter-spacing:.12em}.footer a{display:block;margin:8px 0;text-decoration:none;font-size:.92rem}.footer-bottom{display:flex;justify-content:space-between;margin-top:44px;padding-top:20px;border-top:1px solid #37425f;color:#a5a8b6;font-size:.82rem}.footer-policy{display:flex;gap:20px}
 @media(max-width:960px){.nav,.inquiry{display:none}.menu-btn{display:block}.hero-grid,.intro-grid{grid-template-columns:1fr}.hero-index{min-height:230px}.project{grid-template-columns:80px 1fr}.project-body{grid-column:2}.template-grid{grid-template-columns:1fr}.template-media{min-height:360px;border-left:0;border-top:1px solid var(--line)}.method-grid{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr 1fr}}@media(max-width:640px){.wrap{width:min(100% - 32px,var(--max))}.header{height:70px}.logo img{width:122px}.hero{padding-top:70px}.breadcrumb{margin-bottom:45px}.hero-index{grid-template-columns:1fr}.hero-index a{min-height:100px}.intro,.representative,.experience,.method{padding:80px 0}.section-head,.contact-inner{display:block}.section-head>p{margin-top:20px}.project{grid-template-columns:1fr}.project-no,.project-title,.project-body{grid-column:auto;padding:26px}.project-no{padding-bottom:0}.project-title{border-right:0}.project-title h3{margin-top:20px}.template-head,.template-foot{display:block;padding:28px 24px}.template-tag{display:inline-block;margin-top:18px}.template-content{padding:28px 24px}.template-process{grid-template-columns:1fr 1fr}.template-media{min-height:340px}.media-primary{padding:28px 24px}.media-slot{padding:20px}.template-foot .chips{margin-top:18px}.exp-grid,.method-grid{grid-template-columns:1fr}.contact .btn{margin-top:28px}.footer-grid{grid-template-columns:1fr}.footer-bottom{display:block}.footer-policy{margin-bottom:14px;flex-wrap:wrap}}
-</style>
+
+.header-inner{gap:18px}.header-actions{display:flex;align-items:center;gap:16px;margin-left:auto}.language-switch{display:flex;align-items:center;gap:4px;white-space:nowrap}.language-switch a{display:inline-flex;align-items:center;justify-content:center;min-width:36px;min-height:44px;text-decoration:none;font-size:.875rem;font-weight:600;color:#626272}.language-switch a[aria-current=page]{color:#021036;text-decoration:underline;text-underline-offset:6px}.mobile-nav,.mnav{top:86px;max-height:calc(100dvh - 86px);overflow-y:auto}.mobile-nav .language-switch a,.mnav .language-switch a{border:0}@media(max-width:1100px){.header .nav,.header .inquiry{display:none}.header .menu-btn,.header .menu{display:block}}@media(max-width:640px){.header-inner{gap:8px}.header-actions{gap:6px}.header .language-switch a{min-width:30px}.mobile-nav,.mnav{top:70px;max-height:calc(100dvh - 70px)}}</style>
 <style>
   .hero{background:linear-gradient(90deg,rgba(2,16,54,.95) 0%,rgba(2,16,54,.76) 48%,rgba(2,16,54,.30) 100%),url('../assets/projects-hero-robot-cell.png') center/cover no-repeat}
+
+/* Center navigation in the available space between logo and inquiry actions. */
+.header .header-inner,.header .header-in{display:flex;align-items:center;gap:28px}
+.header .logo{flex:0 0 auto}
+.header .nav{flex:1 1 0;min-width:0;justify-content:center;gap:clamp(20px,2.6vw,42px)}
+.header .nav>a{white-space:nowrap}
+.header .header-actions{flex:0 0 auto;margin-left:0}
+@media(max-width:1100px){.header .nav,.header .inquiry{display:none}.header .menu-btn,.header .menu{display:block}.header .header-actions{margin-left:auto}}
+@media(max-width:640px){.header .header-inner,.header .header-in{gap:8px}.header .header-actions{gap:6px}}
 </style>
 </head>
 <body>
@@ -24,31 +35,31 @@
 <header class="header">
 <div class="wrap header-inner">
 <a class="logo" href="../home/">
-<img src="../assets/sunjin-logo.png" alt="SUNJIN TECHNOLOGY">
+<img alt="SUNJIN TECHNOLOGY" src="../assets/sunjin-logo.png"/>
 </a>
 <nav class="nav">
 <a href="../company/">COMPANY</a>
 <a href="../business/">BUSINESS</a>
 <a href="../solutions/">SOLUTIONS</a>
-<a href="./" aria-current="page">PROJECTS</a>
+<a aria-current="page" href="./">PROJECTS</a>
 <a href="../contact/">CONTACT</a>
 </nav>
-<a class="inquiry" href="../contact/">기술문의</a>
-<button class="menu-btn" aria-label="모바일 메뉴 열기" aria-expanded="false" aria-controls="mobileNav">
+
+
+<div class="header-actions"><a class="inquiry" href="../contact/">기술문의</a><nav aria-label="언어 선택" class="language-switch"><a aria-current="page" href="./" hreflang="ko" lang="ko">KR</a><span aria-hidden="true">/</span><a href="../en/projects/" hreflang="en" lang="en">EN</a></nav><button aria-controls="mobileNav" aria-expanded="false" aria-label="모바일 메뉴 열기" class="menu-btn">
 <span>
 </span>
-</button>
-</div>
+</button></div></div>
 </header>
 <nav class="mobile-nav" id="mobileNav">
 <a href="../home/">HOME</a>
 <a href="../company/">COMPANY</a>
 <a href="../business/">BUSINESS</a>
 <a href="../solutions/">SOLUTIONS</a>
-<a href="./" aria-current="page">PROJECTS</a>
+<a aria-current="page" href="./">PROJECTS</a>
 <a href="../contact/">CONTACT</a>
 <a class="mobile-inquiry" href="../contact/">기술문의</a>
-</nav>
+<nav aria-label="언어 선택" class="language-switch"><a aria-current="page" href="./" hreflang="ko" lang="ko">KR</a><span aria-hidden="true">/</span><a href="../en/projects/" hreflang="en" lang="en">EN</a></nav></nav>
 <main id="main">
 <section class="hero">
 <div class="wrap">
@@ -60,10 +71,10 @@
 <div class="hero-grid">
 <div class="hero-copy">
 <p class="eyebrow">PROJECT EXPERIENCE</p>
-<h1 class="title">현장에서 증명한<br>통합 실행 역량</h1>
+<h1 class="title">현장에서 증명한<br/>통합 실행 역량</h1>
 <p>공정 분석부터 설계·제작·통합·검증까지, 산업현장에서 수행한 자동화 경험을 소개합니다.</p>
 </div>
-<nav class="hero-index" aria-label="프로젝트 분류">
+<nav aria-label="프로젝트 분류" class="hero-index">
 <a href="#representative">
 <span>01</span>
 <strong>대표 구축실적</strong>
@@ -147,7 +158,7 @@
 </div>
 </article>
 </div>
-<article class="project-template" aria-labelledby="project-template-title">
+<article aria-labelledby="project-template-title" class="project-template">
 <header class="template-head">
 <div>
 <p class="template-kicker">PROJECT DETAIL TEMPLATE · SAMPLE</p>
@@ -182,10 +193,10 @@
 <p>생산성·품질·안전·추적성 개선 내용은 공개 승인된 성과 수치 또는 서술로 입력합니다.</p>
 </section>
 </div>
-<section class="template-media" aria-label="프로젝트 미디어 등록 영역">
+<section aria-label="프로젝트 미디어 등록 영역" class="template-media">
 <div class="media-primary">
 <span>MEDIA 01</span>
-<strong>대표 공정 사진<br>또는 30초 영상</strong>
+<strong>대표 공정 사진<br/>또는 30초 영상</strong>
 </div>
 <div class="media-slots">
 <div class="media-slot">
@@ -288,10 +299,10 @@
 <div class="footer-grid">
 <div>
 <a class="footer-logo" href="../home/">
-<img src="../assets/sunjin-logo.png" alt="SUNJIN TECHNOLOGY">
+<img alt="SUNJIN TECHNOLOGY" src="../assets/sunjin-logo.png"/>
 </a>
 <p>AI Robotics &amp; Smart Automation</p>
-<p>경남 창원시 의창구 차룡단지로 135<br>대표전화 055-252-6333</p>
+<p>경남 창원시 의창구 차룡단지로 135<br/>대표전화 055-252-6333</p>
 </div>
 <div>
 <h3>COMPANY</h3>
